@@ -13,7 +13,7 @@ public class Valdle
 	static agentInfo cypher = new agentInfo("Cypher", "Male", "Sentinel", "2020", "Africa", "No", "No");
 	static agentInfo reyna = new agentInfo("Reyna", "Female", "Duelist", "2020", "North America","No", "Yes");
 	static agentInfo brimstone = new agentInfo("Brimstone", "Male", "Controller", "2020", "North America","Yes", "No");
-	static agentInfo breach = new agentInfo("Breach", "Male", "inititator", "2020", "Europe", "No", "Yes");
+	static agentInfo breach = new agentInfo("Breach", "Male", "Inititator", "2020", "Europe", "No", "Yes");
 	static agentInfo killjoy = new agentInfo("Killjoy", "Female", "Sentinel", "2020", "Europe", "Yes", "No");
 	static agentInfo raze = new agentInfo("Raze", "Female", "Duelist", "2020", "South America", "No", "No");
 	static agentInfo skye = new agentInfo("Skye", "Female", "Initiator", "2020", "Australia", "No", "Yes");
@@ -27,9 +27,10 @@ public class Valdle
 	static agentInfo harbor = new agentInfo("Harbor", "Male", "Controller", "2023", "Asia", "No", "No");
 	static agentInfo gekko = new agentInfo("Gekko", "Male", "Initiator", "2023", "North America", "Yes", "Yes");
 	static agentInfo deadlock = new agentInfo("Deadlock", "Female", "Sentinel", "2023", "Europe", "No", "No");
+	static agentInfo iso = new agentInfo("Iso", "Male", "Duelist", "2023", "Asia", "No", "No");
 
 	static agentInfo[] totalAgents = {phoenix, jett, sage, sova, viper, cypher, reyna, brimstone, breach, killjoy,
-			raze, skye, omen, yoru, astra, kayo, chamber, neon, fade, harbor, gekko, deadlock};
+			raze, skye, omen, yoru, astra, kayo, chamber, neon, fade, harbor, gekko, deadlock, iso};
 
 	public static void main(String[] args) 
 	{
@@ -40,7 +41,7 @@ public class Valdle
 		attempts = selectDifficulty();
 		System.out.println("You have " + attempts + " attempts.");
 
-		int randomNumber = generateRandomNumber(0, 21);
+		int randomNumber = generateRandomNumber(0, 22);
 		String userAgent = null;
 		int t = 0;
 		agentInfo goldenAgent = totalAgents[randomNumber];
@@ -88,7 +89,7 @@ public class Valdle
 		{
 			System.out.print("\nEnter a Valorant agent: ");
 			result = scan.nextLine();
-			for (int i = 0; i <= 21; i++) {
+			for (int i = 0; i <= 22; i++) {
 				if (result.equals(totalAgents[i].name) == true) 
 				{
 					t = 1;
