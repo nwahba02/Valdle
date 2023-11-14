@@ -19,7 +19,7 @@ public class Main extends Application {
 			Image topIcon = new Image("valorant.png");
 			Scene mainScreenScene = new Scene(root);
 			stage.getIcons().add(topIcon);
-			stage.setTitle("Valdle");
+			stage.setTitle("VALDLE");
 			stage.setScene(mainScreenScene);
 			stage.show();
 			stage.setResizable(false);
