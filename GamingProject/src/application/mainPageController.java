@@ -13,12 +13,11 @@ import javafx.stage.Stage;
 
 
 public class mainPageController {
-	private Button play;
-	private Button help;
 	private Stage stage;
     private Scene scene;
     private Parent root;
-	@FXML
+
+    @FXML
     public void switchToPlayScreen(ActionEvent event) throws IOException {
             root = FXMLLoader.load(getClass().getResource("difficultyPage.FXML"));
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();

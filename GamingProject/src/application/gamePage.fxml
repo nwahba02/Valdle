@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.gamePageController">
+   <children>
+      <SplitPane dividerPositions="0.714063714063714" prefHeight="729.0" prefWidth="1289.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="727.0" prefWidth="811.0">
+               <children>
+                  <SplitPane dividerPositions="0.6855172413793104" orientation="VERTICAL" prefHeight="727.0" prefWidth="916.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="261.0" prefWidth="914.0" />
+                    </items>
+                  </SplitPane>
+                  <ImageView fitHeight="746.0" fitWidth="1297.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../ImageFolder/test.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="58.0" layoutY="162.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="62.0">
+                     <graphic>
+                        <ImageView fitHeight="76.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../ImageFolder/sova.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="58.0" layoutY="75.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="62.0" text="Button" />
+                  <Button layoutX="136.0" layoutY="75.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="62.0" text="Button" />
+                  <Button layoutX="220.0" layoutY="75.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="62.0" text="Button" />
+                  <Button layoutX="301.0" layoutY="75.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="62.0" text="Button" />
+                  <Button layoutX="387.0" layoutY="75.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="62.0" text="Button" />
+                  <Button layoutX="469.0" layoutY="75.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="62.0" text="Button" />
+                  <Button layoutX="557.0" layoutY="75.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="62.0" text="Button" />
+                  <Button layoutX="649.0" layoutY="75.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="62.0" text="Button" />
+                  <Label fx:id="guesses" layoutX="266.0" layoutY="589.0" prefHeight="51.0" prefWidth="384.0" textFill="#3fff00">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="729.0" fitWidth="1297.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../ImageFolder/test.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="297.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../ImageFolder/red%20x.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="297.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../ImageFolder/red%20x.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="297.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../ImageFolder/red%20x.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="297.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../ImageFolder/red%20x.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="297.0" layoutY="356.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../ImageFolder/red%20x.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="297.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../ImageFolder/red%20x.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="297.0" layoutY="527.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../ImageFolder/red%20x.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="297.0" layoutY="617.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../ImageFolder/red%20x.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
